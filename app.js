@@ -1,6 +1,9 @@
-async function hello(){ //makes it a asynchronous function
-    return "Hello";
-}
-//code Jan 20/2023
-console.log(hello());
-console.log(hello());
+const Buttons = document.querySelectorAll('.countryButton');
+const wIinfo = document.querySelectorAll('.w-info');
+Buttons.forEach(button =>{
+    button.addEventListener('click', ()=>{
+        wIinfo.addEventListener('click',()=>{
+            
+        })
+    })
+})

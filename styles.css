@@ -1,0 +1,33 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: #9933ff;
+    color:#fff;
+    
+}
+button{
+    border: none;
+    padding: 16px 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:  #660066;
+    color: #fff;
+}
+.button_active{
+    background-color: red;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.weather{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 40%;
+}
